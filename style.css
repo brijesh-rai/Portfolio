@@ -68,7 +68,7 @@ li,a{
 	background-color:rgba(0, 123, 204,1);
 }
 .display-image{
-	background-image: url(./display-image.jpg);
+	background-image: url(images/display-image.jpg);
 	width:25%;
 	background-size: contain;
 	background-repeat: no-repeat;
