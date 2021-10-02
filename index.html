@@ -2,10 +2,206 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/29534fb370.js" crossorigin="anonymous"></script>
 	<title>Portfolio</title>
 </head>
 <body>
-	<h1>Hello</h1>
-	<h3>World</h3>
+	<!-- nav-bar -->
+	<div class="nav-bar">
+		<div>
+			<ul>
+				<li><a href="#">Brijesh</a></li>
+			</ul>
+		</div>
+		<div class="links">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about_me">About</a></li>
+				<li><a href="#my-skills">Skills</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contactme">Contactme</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- introduction -->
+	<div class="intro">
+		<div class="links-2">
+			<ul>
+				<li><a href="https://www.linkedin.com/in/brijesh-rai-63b5a3200/" target="-blank"><i class="fab fa-linkedin-in"></i></a></li>
+				<li><a href="https://github.com/brijesh-rai" target="_blank"><i class="fab fa-github"></i></a></li>
+				<li><a href="https://www.hackerrank.com/raibrijesh45" target="_blank"><i class="fab fa-hackerrank"></i></a></li>
+			</ul>
+		</div>
+		<div class="intro-title" >
+			<h1 class="heading">Hi, I' am Brijesh</h1>
+			<h4>Frontend Developer</h4><br>
+			<p>I'm a final year IIST, Indore undergraduate.I'm passionate about Frontend Web Development. I also have decent problem solving skills.</p><br>
+			<button>Contact Me</button>
+		</div>
+		<div class="display-image"></div>
+	</div>
+
+	<!-- about me -->
+	<div class="title" id="about_me">
+		<h1 class="heading">About Me</h1>
+		<h5>My Introduction</h5>
+	</div>
+	<div class="intro-1">
+		<div class="about-me-content">
+			<h2>Front-end Web Developer</h2><br>
+			<p>At present, I'm open to do an internship/full time opportunity for the role of Software Engineer. 
+			I'm a final year IIST, Indore undergraduate having decent problem solving skills, DBMS and knowledge of HTML5, CSS, JavaScript.</p><br>
+			<div class="hire-buttons">
+				<button id="button-hire">Hire Me</button>
+				<button id="button-learn">Learn More</button>
+			</div>
+		</div>
+		<div class="personal-details">
+			<div class="detail-1">
+				<p><strong>Name: </strong>Brijesh</p><br>
+				<p><strong>Degree: </strong>B.Tech</p><br>
+				<p><strong>Phone: </strong>9977838427</p><br>
+				<p><strong>Address: </strong>Indore</p><br>
+			</div>
+			<div class="detail-2">
+				<p><strong>Birthday: </strong>1 June 2000</p><br>
+				<p><strong>Experience: </strong>Fresher</p><br>
+				<p><strong>Email : </strong>raibrijesh45@gmail.com</p><br>
+				<p><strong>Freelance: </strong>Available</p><br>
+			</div>
+		</div>
+	</div>
+
+	<!-- skills -->
+	<div class="title" id="my-skills">
+		<h1 class="heading">Skills</h1>
+		<h5>My Technical Level</h5>
+	</div>
+	<div class="skill-list">
+		<div class="skill-name">
+			<div class="skill-value">
+				<h4>C</h4>
+				<h4>70%</h4>
+			</div>
+			<progress value="70" max="100"></progress>
+		</div>
+		<div class="skill-name">
+			<div class="skill-value">
+				<h4>C++</h4>
+				<h4>85%</h4>
+			</div>
+			<progress value="85" max="100"></progress>
+		</div>
+		<div class="skill-name">
+			<div class="skill-value">
+				<h4>HTML 5</h4>
+				<h4>95%</h4>
+			</div>
+			<progress value="95" max="100"></progress>
+		</div>
+		<div class="skill-name">
+			<div class="skill-value">
+				<h4>CSS</h4>
+				<h4>80%</h4>
+			</div>
+			<progress value="80" max="100"></progress>
+		</div>
+		<div class="skill-name">
+			<div class="skill-value">
+				<h4>JavaScript</h4>
+				<h4>50%</h4>
+			</div>
+			<progress value="50" max="100"></progress>
+		</div>
+		<div class="skill-name">
+			<div class="skill-value">
+				<h4>MySQL</h4>
+				<h4>75%</h4>
+			</div>
+			<progress value="75" max="100"></progress>
+		</div>
+	</div>
+
+	<!-- services -->
+	<div class="title" id="services">
+		<h1 class="heading">Services</h1>
+		<h5>What I Offer</h5>
+	</div>
+	<div class="services-list">
+		<div class="service">
+			<div class="service-content">
+				<i class="fas fa-code"></i><br><br>
+				<h2>Frontend<br>Developer</h2><br>
+				<a href="#">View more</a>
+				<i class="fas fa-arrow-right"></i>
+			</div>
+		</div>
+		<div class="service">
+			<div class="service-content">
+				<i class="fas fa-pen"></i><br><br>
+				<h2>UI/UX<br> Designer</h2><br>
+				<a href="#">View more</a>
+				<i class="fas fa-arrow-right"></i>
+			</div>
+		</div>
+		<div class="service">
+			<div class="service-content">
+				<i class="fas fa-camera"></i><br><br>
+				<h2>Photo<br>Editor</h2><br>
+				<a href="#">View more</a>
+				<i class="fas fa-arrow-right"></i>
+			</div>
+		</div>
+	</div>
+
+	<!-- contactme -->
+	<div class="title" id="contactme">
+			<h1 class="heading">Contact Me</h1>
+			<h5>Get in touch</h5> 
+	</div>
+	<div class="contactme">
+		<input class="input" type="text" name="name" placeholder="Your Name">
+		<input class="input" type="Email" name="email" placeholder="Your Email">
+		<input id="subject" type="text" name="subject" placeholder="Subject">
+		<textarea id="subject" rows="6" placeholder="Message"></textarea>
+		<div class="submit-m-button">
+			<button>Send Message</button>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="icons">
+			<a href="#"><i class="fab fa-twitter-square"></i></a>
+			<a href="#"><i class="fab fa-instagram-square"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="#"><i class="fab fa-facebook-square"></i></a>
+		</div>
+		<div class="privacy-links">
+			<a href="#">Privacy</a>
+			<label>|</label>
+			<a href="#">Terms</a>
+			<label>|</label>
+			<a href="#">FAQs</a>
+			<label>|</label>
+			<a href="#">Help</a>
+		</div>
+		<div class="copyright">
+			<span>&copy</span>
+			<label>Brijesh.</label>
+			<label>All rights reserved. Designed by </label>
+			<label>Brijesh</label>
+		</div>
+		<div class="made">
+			<label>Made with</label>
+			<i class="fas fa-heart"></i>
+		</div>
+	</footer>
 </body>
 </html>

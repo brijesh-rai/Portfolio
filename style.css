@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+}
+li,a{
+	text-decoration: none;
+	color: black;
+}
+.nav-bar{
+	position: ;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	border: 2px solid;
+}
+.nav-bar  li{
+	display: inline-block;
+	padding: 0.8em;
+	font-size: 1.2em;
+}
+.nav-bar a:hover{
+	font-weight: bold;
+	color:  #007bcc;
+}
+.intro{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: auto;
+	margin-top: 10%;
+	/*border: 2px solid red;*/
+}
+.links-2{
+	display: flex;
+	align-items: center;
+}
+.links-2 li{
+	padding: 1em;
+}
+.links-2 i{
+	color:  #007bcc;
+	font-size: 1.2em;
+}
+.intro-title{
+	width:30%;
+}
+.intro-title h4,p{
+	color: darkslategrey;
+}
+.heading{
+	color:  #007bcc;
+}
+.intro-title{
+	font-size: 1.3em;
+}
+.intro-title button{
+	padding: 0.5em;
+	background-color: rgba(0, 123, 204,0.9);
+	color: white;
+	font-size: 1em;
+	border-radius: 4px;
+}
+.intro-title button:hover{
+	background-color:rgba(0, 123, 204,1);
+}
+.display-image{
+	background-image: url(./display-image.jpg);
+	width:25%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.title{
+	text-align: center;
+	margin-top: 10%;
+	font-size: 1.1em;
+}
+.intro-1{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: 5%;
+	width: 80%;
+}
+.personal-details{
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.personal-details p{
+	color: black;
+}
+
+.about-me-content{
+	width: 45%;
+}
+.hire-buttons{
+	display: flex;
+	flex-wrap: wrap;
+}
+.hire-buttons button{
+	font-size: 1em;
+	padding: 1em;
+	margin: 0.5em;
+	border-radius: 100px;
+}
+#button-hire{
+	background-color:rgba(0, 123, 204,0.9);
+	color: white;
+}
+#button-hire:hover{
+	background-color:rgba(0, 123, 204,1);
+}
+#button-learn{
+	color: #007bcc;
+	background-color: white;
+	font-weight: bold;
+}
+#button-learn:hover{
+	border:2px solid #007bcc ;
+}
+.skill-list{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	margin-top:5%;
+}
+.skill-name{
+	width: 50%;
+	margin-top:1.5em;
+}
+progress{
+	width: 90%;
+
+}
+.skill-value{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+.services-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+}
+.services-list i{
+	font-size: 1.2em;
+	color:#007bcc;
+}
+.services-list a{
+	color:#007bcc;
+}
+.services-list a:hover{
+	font-weight: bold;
+}
+.service{
+	width: 25%;
+	height: 300px;
+	margin: 0.5em;
+	box-shadow: 1px 1px 3px 1px;
+}
+.service-content{
+	margin-top: 15%;
+	padding: 3.5em;
+}
+.contactme{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1em;
+	margin-top: 5%;	
+}
+.contactme input,textarea{
+	font-size: 1em;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 5px;
+	border: 1px solid darkslategrey;
+}
+.input{
+	width: 48.3%;
+}
+#subject{
+	width: 98%;
+}
+.submit-m-button{
+	display: flex;
+	width: 100%;
+}
+.submit-m-button button{
+	font-size: 1em;
+	padding: 1em;
+	margin: auto;
+	border-radius: 50px;
+	background-color:white;
+	color: #007bcc;
+}
+.submit-m-button button:hover{
+	transition: 0.1s;
+	background-color:#007bcc;
+	color: white;
+}
+.footer{
+	width: 100%;
+	background-color:#007bcc;
+	padding: 3em;
+	margin-top: 5%;
+}
+.icons{
+	text-align: center;
+}
+.icons i{
+	font-size: 2em;
+	color: white;
+	margin: 0.4em;
+}
+.privacy-links{
+	text-align: center;
+	color: white;
+	margin: 1em;
+}
+.privacy-links a{
+	color: white;
+	padding: 1em;
+}
+.copyright{
+	text-align: center;
+	margin: 1em;
+}
+.made{
+	text-align: center;
+	margin: 1em;
+}
+.made label{
+	color: white;
+}
+.made i{
+	color: red;
+}
+@media screen and (max-width: 768px)
+{
+	.intro-title{
+		font-size: 0.5em;
+	}
+	.display-image{
+		width: 22%;
+	}
+	.links-2 li{
+		padding: 0.4em;
+	}
+	.links-2 i{
+		font-size: 0.8em;
+	}
+	.nav-bar li{
+		font-size: 0.7em;
+	}
+	.title{
+		font-size: 0.5em;
+	}
+	.intro-1{
+		font-size: 0.5em;
+	}
+	.hire-buttons{
+		font-size: 0.5em;
+	}
+	.skill-name{
+		width: 100%;
+		font-size: 0.5em;
+		margin-top: 1em;
+	}
+	.service{
+		width: 30%;
+		height: 150px;
+		font-size: 0.5em;
+	}
+	.input{
+		width:100%;
+	}
+	.contactme{
+		font-size: 0.5em;
+	}
+	.contactme input,textarea{
+		font-size: 1em;
+	}
+	.submit-m-button button{
+		font-size: 0.5em;
+	}
+	.icons i{
+		font-size: 1em;
+	}
+	.footer{
+		font-size: 0.5em;
+	}
+}
