@@ -47,7 +47,11 @@ li,a{
 }
 .links-2 i{
 	color:  #007bcc;
-	font-size: 1.2em;
+	font-size: 1.5em;
+}
+.links-2 i:hover{
+	transition: 0.1s;
+	color: black;
 }
 .intro-title{
 	width:30%;
