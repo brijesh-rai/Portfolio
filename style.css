@@ -10,29 +10,33 @@ li,a{
 	color: black;
 }
 .nav-bar{
-	position: ;
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
-	width: 80%;
-	margin: auto;
-	border: 2px solid;
+	width: 100%;
+	background-color: #007bcc;
+	padding:0% 3% ;
+	top: 0;
 }
 .nav-bar  li{
 	display: inline-block;
 	padding: 0.8em;
 	font-size: 1.2em;
 }
+.nav-bar a{
+	transition: 0.2s;
+	color: white;
+}
 .nav-bar a:hover{
 	font-weight: bold;
-	color:  #007bcc;
+	color:  black;
 }
 .intro{
 	display: flex;
 	justify-content: space-around;
 	width: 80%;
 	margin: auto;
-	margin-top: 10%;
-	/*border: 2px solid red;*/
+	margin-top: 15%;
 }
 .links-2{
 	display: flex;
@@ -246,6 +250,9 @@ progress{
 .made i{
 	color: red;
 }
+#heart{
+	font-size: 1em;
+}
 @media screen and (max-width: 768px)
 {
 	.intro-title{
@@ -269,9 +276,7 @@ progress{
 	.intro-1{
 		font-size: 0.5em;
 	}
-	.hire-buttons{
-		font-size: 0.5em;
-	}
+	
 	.skill-name{
 		width: 100%;
 		font-size: 0.5em;
@@ -279,8 +284,8 @@ progress{
 	}
 	.service{
 		width: 30%;
-		height: 150px;
-		font-size: 0.5em;
+		height: 130px;
+		font-size: 0.4em;
 	}
 	.input{
 		width:100%;
@@ -291,13 +296,13 @@ progress{
 	.contactme input,textarea{
 		font-size: 1em;
 	}
-	.submit-m-button button{
-		font-size: 0.5em;
-	}
 	.icons i{
 		font-size: 1em;
 	}
 	.footer{
 		font-size: 0.5em;
+	}
+	.footer i{
+		font-size: 2em;
 	}
 }
